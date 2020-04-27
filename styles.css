@@ -21,7 +21,13 @@ footer {
 }
 
 
-
+.hs-img
+{
+  border:solid red 2px;
+  border-radius: 20px;
+  margin-left: 0px;
+  height: 200px;
+}
 
 
 
