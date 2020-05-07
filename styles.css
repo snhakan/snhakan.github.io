@@ -23,10 +23,12 @@ footer {
 
 .hs-img
 {
-  border:solid red 2px;
+  border:solid red 0px;
   border-radius: 20px;
-  margin-left: 0px;
-  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  height: 300px;
 }
 
 
