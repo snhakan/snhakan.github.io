@@ -1,7 +1,7 @@
 
 
 
-(function() {
+function() {
 	var saat = document.querySelector('.saat');
     var gun = document.querySelector('.gun');
 	// 10'dan kucuk saat, dakika ve saniye degerleri
@@ -33,4 +33,4 @@
 	
 	// Calling ticktock() every 1 second
 	setInterval(tiktak, 1000);
-}());
+}();
