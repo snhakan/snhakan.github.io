@@ -1,0 +1,301 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?11062722');
+    src: url('./font/fontello.eot?11062722#iefix') format('embedded-opentype'),
+         url('./font/fontello.woff?11062722') format('woff'),
+         url('./font/fontello.ttf?11062722') format('truetype'),
+         url('./font/fontello.svg?11062722#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+   
+   
+  .demo-icon
+  {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+
+
+.icon-basket{
+    font-size: 24px;
+    margin: 14px;
+    float: right;
+    color: white;
+}
+
+body{
+    font-size: 13px;
+    font-family: 'Palanguin', sans-serif ;
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    position: fixed;
+    background: #95ab8f;
+    z-index: 2;
+}
+
+.resim{
+    background: url('zyag.jpg');
+    height: 500px;
+    background-position: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 80px;
+    text-shadow: 1px 4px 10px black;
+}
+h1>span{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 20px;
+    text-shadow: 1px 4px 6px black;
+
+}
+
+
+.button{
+    border-radius: 4px;
+    background-color: #bfbfbf;
+    color: #625a5a;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 9px 5px 9px;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background-color: #6c7a89;
+    color: #dae1e7; 
+}
+
+.bolum{
+    height: 30px;
+}
+
+
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 100px;
+    
+    
+}
+
+
+.leftp{
+    width: 30%;
+    float: left;
+    display: inline-block;
+    margin: auto;
+}
+.leftp img {
+    width: 100px;
+    padding:0 0 10px 10px;
+}
+
+.rightp{
+    width: 39%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+
+
+.logo{
+    display: inline-block;
+    float: left; 
+}
+
+.logo img{
+    height: 40px;
+    margin-top: 6px;
+}
+
+.search{
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu{
+   border-bottom: 1px solid; 
+}
+
+.menu-ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-ul>a{
+    color: #000;
+    text-align: left;
+}
+.info-ul{
+    padding-left: 0px;
+}
+.info-ul>dt>a{
+    color: white;
+    text-decoration: none;  
+    padding: 5px 0px 5px 0px;
+
+} 
+
+.info-ul>dt>a:hover{
+    font-weight: bold;
+    vertical-align: baseline;
+    font-size: 18px;
+}
+
+.info-ul>dt{
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.menu-ul>a:hover{
+    color: #cc181e;
+}
+.menu-li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 7px;
+    border-bottom: 3px solid #fff;
+}
+
+.menu-li:hover{
+    border-bottom: 3px solid red;
+}
+
+.isearch {
+    padding: 8px 8px 18px;
+    border: 0;
+    margin-top: 6px;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.253);
+    width: 70px;
+    color: #fff;
+    outline: 0;
+    font-size: 13px;
+    font-family: 'Palanguin';
+    font-style: italic;
+    transition-duration: 0.5s;
+    transition-property: width,color;
+
+
+}
+.isearch:focus{
+    width: 250px;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.87);
+}
+
+.isearch::placeholder{
+        color: white;
+        opacity: 1; 
+}
+
+
+
+footer{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 25px 0 25px 0;
+    background: #121212;
+    color: white;
+}
+
+footer>h2>title{
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    text-align: left;
+    line-height: 1;
+
+}
+
+span{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+.line:before,.line:after{
+    content: '';
+    color: red;
+    border: 1px solid;
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    top: 25px;
+    width: 20px;
+
+}
+.line::before{
+    left:100%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.column-25{
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.clear{
+    clear: both;
+}

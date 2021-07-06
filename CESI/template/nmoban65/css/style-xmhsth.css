@@ -170,7 +170,7 @@ header {position: relative; z-index: 3;}
 .header-middle .header-logo{ float: left; margin: 20px 0; max-width: 30%;}
 .header-logo-box{ height: 80px; display: table;}
 .header-logo-box a{ display: table-cell; vertical-align: middle;}
-.header-logo-box a img{ display: block; max-height: 80px;max-width:100%;}
+.header-logo-box a img{ display: block; max-height: 80px;max-width:100%;border-radius: 50px}
 /*头部格言*/
 .header-middle .company-motto{ margin: 20px 0;height: 70px; padding-right: 260px;}
 .company-motto-p{ display: table ;height: 70px; margin-top:36px;}
